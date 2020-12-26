@@ -27,8 +27,8 @@ namespace Aujicini\FourWayChess;
 
 class Atomic implements Variant
 {
-    use Logic;
-    use Parsable;
     use Explosions;
     use IgnoreKingCaptures
+    use Logic;
+    use Parsable;
 }
