@@ -29,6 +29,6 @@ class Antichess implements Variant
 {
     use Logic;
     use Parsable;
+    use ForceCaptures;
     use IgnoreChecks;
-    use IgnoreKingCaptures;
 }
