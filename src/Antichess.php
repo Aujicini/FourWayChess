@@ -27,5 +27,8 @@ namespace Aujicini\FourWayChess;
 
 class Antichess implements Variant
 {
-    
+    use Logic;
+    use Parsable;
+    use IgnoreChecks;
+    use IgnoreKingCaptures;
 }
