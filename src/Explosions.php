@@ -42,8 +42,8 @@ trait Explosions
     {
         foreach ([-16, -1, 16, 1, -17, -15, 17, 15] as $direction) {
             if (in_array($board[$destination + $direction][1], [0, 1, 2, 3]))
-                continue
-            $board[$destination + $direction] = 0
+                continue;
+            $board[$destination + $direction] = 0;
         }
     }
 }
