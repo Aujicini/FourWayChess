@@ -25,6 +25,9 @@
 
 namespace Aujicini\FourWayChess;
 
+/**
+ * Add atomic explosions to the four way chessboard.
+ */
 trait Explosions
 {
     /**
